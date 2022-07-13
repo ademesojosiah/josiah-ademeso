@@ -1,44 +1,211 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
+*{
+    box-sizing: border-box;
+}
 
 :root{
     --fonts-fam: 'Source Sans Pro', sans-serif;
     --font-color : #E84949;
     --norm-color : #000000;
+    --info-color : #8d8d8d;
 
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+
+main{
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.circle{
+    position: absolute;
+    height: 70px;
+    width: 172;
+    top: 500px;
+    right: 120px;
+}
+
+.ellipse{
+    position: absolute;
+    /* height: 70px;
+    width: 172; */
+    top: 500px;
+    right: 550px;    
+}
+
+.zigzag{
+    height: 146px;
+    width: 56px ;
+    position: absolute;
+    top: 120px;
+    right: 550px;
+}
+
+.plus{
+    height: 27px;
+    width: 26px;
+    position: absolute;
+    top: 100px;
+    right: 350px ;
+}
+
+.cube{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 100px;
+    right: 120px ;
+}
+
+
 /* nav bar styling*/
 nav{
-    padding: 10px 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom:  20px;
     font-family: var(--fonts-fam);
-    font-size: 25px;
+    font-size: 1.8em;
     font-weight: 600;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: var(--norm-color);
 }
 
 /* nav bar logo  */
 nav .logo{
-    margin-left: 20px;
+    color: var(--font-color);
 }
 
-/* nav menus parent  */
-nav .menu{
- margin-right: 25px;
-}
 
 /* nav bar links */
-nav a{
+.menu a{
     color: var(--norm-color);
-    margin-left: 20px;
+    margin-left: 80px;
     text-decoration: none;
     
 }
 
 /* project link styling */
-nav a span{
+.menu a span{
     color:var(--font-color)
 }
 
+/* about me section */
+.about_me_section{
+    margin-top: 70px;
+    margin-bottom:  70px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+}
+
+/* info div in the about me section  */
+.info{
+    font-family: var(--fonts-fam);
+    width: 50%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info button{
+    font-family: var(--fonts-fam);
+    cursor: pointer;
+    border: none;
+    background-color: var(--font-color);
+    color: #fff;
+    font-size: 1em;
+    padding: 15px;
+    box-shadow: 0px 2px 3px #202020;
+}
+
+.info h1{
+    font-size: 37px;
+    margin-top: 2.1em;
+    margin-bottom: 15px;
+}
+
+.info p{
+    color: #8d8d8d;
+    font-size: 1.5em;
+}
+/* img div in the about me section  */
+.hero_img{
+    padding-left: 10%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* picture in the img div  */
+.hero_img img{
+
+    border-radius: 50%;
+    height: 360px;
+    width: 360px;
+}
+
+.hero_img .img_border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--font-color) ;
+    height: 385px;
+    width: 385px;
+    border-radius: 50%;
+}
+
+
+/* the skills section  */
+
+.headings{
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--font-color);
+    font-family: var(--fonts-fam);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.skills_section .skills{
+    display: flex;
+
+
+}
+
+.skills_section .skills_set{
+    width: 60%;
+    font-family: var(--fonts-fam);
+    color: var(--info-color);
+    font-size: 1.3em;
+    
+}
+
+.skills_section .skills_image{
+    width: 40%;
+}
+
+.skills_section .skills_image img{
+    width: 411px;
+    height: 326px;
+}
+
+
+/* portfolio section  */
+.portfolio_section>div>p{
+    text-align: center;
+    font-family: var(--fonts-fam);
+    color: var(--info-color);
+    font-size: 1.3em;
+    
+}
