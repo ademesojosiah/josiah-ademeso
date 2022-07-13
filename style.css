@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+:root{
+    --fonts-fam: 'Source Sans Pro', sans-serif;
+    --font-color : #E84949;
+    --norm-color : #000000;
+
+}
+
+/* nav bar styling*/
+nav{
+    padding: 10px 10px;
+    font-family: var(--fonts-fam);
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    color: var(--norm-color);
+}
+
+/* nav bar logo  */
+nav .logo{
+    margin-left: 20px;
+}
+
+/* nav menus parent  */
+nav .menu{
+ margin-right: 25px;
+}
+
+/* nav bar links */
+nav a{
+    color: var(--norm-color);
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+
+/* project link styling */
+nav a span{
+    color:var(--font-color)
+}
+
