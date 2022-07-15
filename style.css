@@ -729,7 +729,7 @@ display: none;
 .info p{
     color: #8d8d8d;
     font-size: 1.35em;
-    text-align: left;
+    text-align: center ;
 }
 /* img div in the about me section  */
 .hero_img{
