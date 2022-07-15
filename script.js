@@ -4,11 +4,11 @@ const mobileMenu = document.querySelector(".mobile_menu");
 
 
 hamburger.addEventListener("click",()=>{
-    // mobileMenu.style.display = "block";
+    mobileMenu.style.display = "block";
     mobileMenu.style.width = "70%"
 })
 
 cross.addEventListener("click",()=>{
     mobileMenu.style.width = "0%"
-    // mobileMenu.style.display = "none";
+    mobileMenu.style.display = "none";
 })
