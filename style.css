@@ -837,7 +837,7 @@ display: none;
 
 .contact div input{
     padding: 15px;
-    border: none;
+    border: 1px solid #000000;
     box-shadow: 0px 1px 2px var(--norm-color);
     font-family: var(--fonts-fam);
     width: 100%;
@@ -853,7 +853,7 @@ display: none;
 
 .contact div textarea{
     padding: 20px;
-    border: none;
+    border: 1px solid #000000;
     box-shadow: 0px 2px 3px var(--norm-color);
     font-family: var(--fonts-fam);
     width: 100%;
