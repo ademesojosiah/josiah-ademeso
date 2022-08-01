@@ -8,167 +8,172 @@
     <script src="/script.js" defer></script>
     <title>josiah's portfolio</title>
 </head>
-<body>
-    <div class="mobile_menu">
-        <P>x</P>
+<body  onload="showPage()">
 
-        <div class="mob_menu">
-            <a href="#skills_section"><span>01.</span> <br> Skills </a>
-            <a href="#portfolio"> <span>02.</span> <br> Projects  <img src="/pics/Group (2).png" alt=""></a>
-            <a href="#contact"><span>03.</span> <br> Contact me </a>
+    <img  id="loader"  src="/pics/cube.png" alt="">
+<div id="myDiv" style="display: none;">
+    
+        <div class="mobile_menu">
+            <P>x</P>
+    
+            <div class="mob_menu">
+                <a href="#skills_section"><span>01.</span> <br> Skills </a>
+                <a href="#portfolio"> <span>02.</span> <br> Projects  <img src="/pics/Group (2).png" alt=""></a>
+                <a href="#contact"><span>03.</span> <br> Contact me </a>
+            </div>
         </div>
+        <main>
+            <nav>
+                <div class="logo">
+                    <a href="#about_me_section">Josiah</a>
+                </div>
+    
+                <div class="menu">
+                <a href="#skills_section">Skills</a>
+                <a href="#portfolio"><span>Projects  <img src="/pics/Group (2).png" alt=""></span></a>
+                <a href="#contact">Contact me </a>
+                </div>
+                <img  class="ham_burger" id="ham_burger" src="/pics/menu-svgrepo-com 1.png" alt="">
+            </nav>
+            <section class="about_me_section" id="about_me_section">
+                <div class="info">
+                    <img class="cube2" src="/pics/cube.png" alt="">
+                    <h1>Hi, I'm Josiah Ademeso</h1>
+                    <p>Frontend developer</p>
+                    <p>Experienced in web design and <br> developement, producing <br> quality and accesible user friendly products <br> </p>
+                    <span><a href="https://drive.google.com/file/d/1j8mBan6UHo-DGehcdw1LGjUvaSv2JIbT/view?usp=sharing"><button>Resume</button></a>   <a href="mailto:{josiahademeso@gmail.com}?subject={subject}&body={content}"><button>Hire me</button></a> </span>
+    
+    
+                </div>
+                <div class="hero_img">
+                    <img class="circle" src="/pics/circles.png" alt="">
+                    <img class="cube" src="/pics/cube.png" alt="">
+                    <img class="ellipse" src="/pics/Ellipse 11.png" alt="">
+                    <img class="plus" src="/pics/plus.png" alt="">
+                    <img class="zigzag" src="/pics/zigzags.png" alt="">
+                    <div class="img_border"><img src="/pics/person.jpg" alt=""></div>
+                </div>
+            </section>
+    
+            <section class="skills_section" id="skills_section">
+                <div class="headings"><h2>skills</h2></div>
+                <div class="skills">
+                    <div class="skills_set">
+                        <p>I have a vast experience in the following <br> web technologies:</p>
+                        <img src="/pics/html-5-logo-svgrepo-com 1.png" alt="">
+                        <img src="/pics/css3-logo-svgrepo-com 1.png" alt="">
+                        <img src="/pics/JS-Lo 1.png" alt="">
+                        <img src="/pics/icons8-react-native-64.png" alt="">
+                        <img src="/pics/icons8-wordpress-48.png" alt="">
+                    </div>
+                    <div class="skills_image"><img class="img" src="/pics/undraw_project_completed_w0oq 1.png" alt=""> <img class="img2" src="/pics/undraw_project_completed_w0oq 1 (2).png" alt=""></div>
+                </div>
+    
+            </section>
+            <section class="portfolio_section" id="portfolio">
+                <div class="headings"><h2>Projects  <img src="/pics/Group (2).png" alt=""></h2></div>
+                <div><p>Some of my projects includes:</p></div>
+                <div class="portfolio_row">
+                    <div class="portfolio">
+                        <div class="bg3 bg"></div>
+                        <div class="portfolio_text">
+                            <p>Made a parallax Porfolio   <br>
+                                web site using <br>
+                                HTML5,CSS and JS only.</p>
+    
+                                <a href="https://josiahsportfolio.netlify.app/"><img src="/pics/internet-blue 1.png" alt=""> visit site</a>
+    
+                        </div>
+                    </div>
+                    <div class="portfolio">
+                        <div class="bg2 bg"></div>
+                        <div class="portfolio_text">
+                            <p>Made an e-commerce  <br>
+                                store website using <br>
+                                wordpress.</p>
+    
+                                <a href="https://mostlyurban.com/shop/"><img src="/pics/internet-blue 1.png" alt=""> visit site</a>
+    
+                        </div>
+                    </div>
+                    <div class="portfolio">
+                        <div class="bg1 bg">
+                        </div>
+                        <div class="portfolio_text">
+                        <p>Made a Real Estate <br>
+                            management website using <br>
+                             wordpress.</p>
+                            <a href="https://ayofeakgroup.com/"><img src="/pics/internet-blue 1.png" alt=""> visit site</a>
+                    </div>
+                </div>
+                </div>
+                <div class="portfolio_row">
+                    <div class="portfolio">
+                        <div class="bg4 bg">
+                        </div>
+                        <div class="portfolio_text">
+                        <p>Made a simple login<br>
+                            validation template using <br>
+                             HTML5,CSS and JS only.</p>
+    
+                            <a href="https://github.com/jojo114/login_validation"><img src="/pics/internet-blue 1.png" alt=""> view code</a>
+    
+                    </div>
+                </div>
+                    <div class="portfolio">
+                        <div class="bg5 bg"></div>
+                        <div class="portfolio_text">
+                        <p>Made a todo <br>
+                            task template using <br>
+                             HTML5,CSS and JS only.</p>
+    
+                            <a href="https://github.com/jojo114/todo_list"><img src="/pics/internet-blue 1.png" alt=""> view code</a>
+                    </div>
+                </div>
+                <div class="portfolio_git">
+                        <a href="https://github.com/jojo114?tab=repositories" class="github"><img src="/pics/internet-blue 1.png" alt=""> view more codes on Github</a>
+                </div>
+    
+    
+            </section>
+            <section class="contact_section" id="contact">
+                <div class="headings"><h2>Contact Me</h2></div>
+                <div class="contacts_info">
+                    <div class="man_standing"><img class="man" src="/pics/man standing on chats 1.png" alt=""><img class="man1" src="/pics/man standing on chats 2.png" alt=""></div>
+                    <div class="contact">
+                        <form action="https://formsubmit.co/josiahademeso@gmail.com" method="POST">
+                            <input type="hidden" name="_autoresponse" value=" your email has been sent succesfully">
+                            <input type="hidden" name="_subject" value="New submission!">
+                            <div>
+                                <input type="email" name="email" id="" placeholder="Your email" required>
+                            </div>
+                            <div>
+                                <textarea name="message" id="" cols="25" rows="10" placeholder="Your message"></textarea>
+                            </div>
+                            <button type="submit"><span>submit </span> <img src="/pics/paper plane 1.png" alt=""></button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <p>My social media links: <span class="footer foot">
+                    <a href="https://www.linkedin.com/in/josiah-ademeso-1827201b3/"><img src="/pics/linkedin-svgrepo-com 1.png" alt=""></a>
+                    <a href="https://wa.me/+2348167534061"><img src="/pics/whatsapp-svgrepo-com 1 (1).png" alt=""></a>
+                    <a href="https://twitter.com/josiahademeso"><img src="/pics/twitter-svgrepo-com 1.png" alt=""></a>
+                    <a href="mailto:{josiahademeso@gmail.com}?subject={subject}&body={content}"><img src="/pics/gmail-svgrepo-com 1.png" alt=""></a>
+    
+                </span></p>
+    
+            </div>
+            <div>
+                <p>Where to get my code :
+                <span class="footer foot"><img src="/pics/github-svgrepo-com 1.png" alt=""><span><a href="https://github.com/jojo114">@jojo114</a> on github</span></span></p>
+    
+            </div>
+        </footer>
 </div>
-    <main>
-        <nav>
-            <div class="logo">
-                <a href="#about_me_section">Josiah</a>
-            </div>
-        
-            <div class="menu">
-            <a href="#skills_section">Skills</a>
-            <a href="#portfolio"><span>Projects  <img src="/pics/Group (2).png" alt=""></span></a>
-            <a href="#contact">Contact me </a>
-            </div>
-            <img  class="ham_burger" id="ham_burger" src="/pics/menu-svgrepo-com 1.png" alt="">
-        </nav>
-        <section class="about_me_section" id="about_me_section">
-            <div class="info">
-                <img class="cube2" src="/pics/cube.png" alt="">
-                <h1>Hi, I'm Josiah Ademeso</h1>
-                <p>Frontend developer</p>
-                <p>Experienced in web design and <br> developement, producing <br> quality and accesible user friendly products <br> </p>
-                <span><a href="https://drive.google.com/file/d/1j8mBan6UHo-DGehcdw1LGjUvaSv2JIbT/view?usp=sharing"><button>Resume</button></a>   <a href="mailto:{josiahademeso@gmail.com}?subject={subject}&body={content}"><button>Hire me</button></a> </span>           
-                
-
-            </div>
-            <div class="hero_img">
-                <img class="circle" src="/pics/circles.png" alt="">
-                <img class="cube" src="/pics/cube.png" alt="">
-                <img class="ellipse" src="/pics/Ellipse 11.png" alt="">
-                <img class="plus" src="/pics/plus.png" alt="">
-                <img class="zigzag" src="/pics/zigzags.png" alt="">         
-                <div class="img_border"><img src="/pics/person.jpg" alt=""></div>
-            </div>
-        </section>
-
-        <section class="skills_section" id="skills_section">
-            <div class="headings"><h2>skills</h2></div>
-            <div class="skills">
-                <div class="skills_set">
-                    <p>I have a vast experience in the following <br> web technologies:</p>
-                    <img src="/pics/html-5-logo-svgrepo-com 1.png" alt="">
-                    <img src="/pics/css3-logo-svgrepo-com 1.png" alt="">
-                    <img src="/pics/JS-Lo 1.png" alt="">
-                    <img src="/pics/icons8-react-native-64.png" alt="">
-                    <img src="/pics/icons8-wordpress-48.png" alt="">
-                </div>
-                <div class="skills_image"><img class="img" src="/pics/undraw_project_completed_w0oq 1.png" alt=""> <img class="img2" src="/pics/undraw_project_completed_w0oq 1 (2).png" alt=""></div>
-            </div>
-
-        </section>
-        <section class="portfolio_section" id="portfolio">
-            <div class="headings"><h2>Projects  <img src="/pics/Group (2).png" alt=""></h2></div>
-            <div><p>Some of my projects includes:</p></div>
-            <div class="portfolio_row">
-                <div class="portfolio">
-                    <div class="bg3 bg"></div>
-                    <div class="portfolio_text">
-                        <p>Made a parallax Porfolio   <br>
-                            web site using <br>
-                            HTML5,CSS and JS only.</p>
-                        
-                            <a href="https://josiahsportfolio.netlify.app/"><img src="/pics/internet-blue 1.png" alt=""> visit site</a>
-                
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="bg2 bg"></div>
-                    <div class="portfolio_text">
-                        <p>Made an e-commerce  <br> 
-                            store website using <br>
-                            wordpress.</p>
-                        
-                            <a href="https://mostlyurban.com/shop/"><img src="/pics/internet-blue 1.png" alt=""> visit site</a>
-                
-                    </div>
-                </div>
-                <div class="portfolio">
-                    <div class="bg1 bg">
-                    </div>
-                    <div class="portfolio_text">
-                    <p>Made a Real Estate <br> 
-                        management website using <br>
-                         wordpress.</p>
-                        <a href="https://ayofeakgroup.com/"><img src="/pics/internet-blue 1.png" alt=""> visit site</a>
-                </div>
-            </div>
-            </div>
-            <div class="portfolio_row">
-                <div class="portfolio">
-                    <div class="bg4 bg">
-                    </div>
-                    <div class="portfolio_text">
-                    <p>Made a simple login<br> 
-                        validation template using <br>
-                         HTML5,CSS and JS only.</p>
-                    
-                        <a href="https://github.com/jojo114/login_validation"><img src="/pics/internet-blue 1.png" alt=""> view code</a>
-                    
-                </div>
-            </div>
-                <div class="portfolio">
-                    <div class="bg5 bg"></div>
-                    <div class="portfolio_text">
-                    <p>Made a todo <br> 
-                        task template using <br>
-                         HTML5,CSS and JS only.</p>
-                    
-                        <a href="https://github.com/jojo114/todo_list"><img src="/pics/internet-blue 1.png" alt=""> view code</a>
-                </div>
-            </div>
-            <div class="portfolio_git">
-                    <a href="https://github.com/jojo114?tab=repositories" class="github"><img src="/pics/internet-blue 1.png" alt=""> view more codes on Github</a>
-            </div>
-            
-
-        </section>
-        <section class="contact_section" id="contact">
-            <div class="headings"><h2>Contact Me</h2></div>
-            <div class="contacts_info">
-                <div class="man_standing"><img class="man" src="/pics/man standing on chats 1.png" alt=""><img class="man1" src="/pics/man standing on chats 2.png" alt=""></div>
-                <div class="contact">
-                    <form action="https://formsubmit.co/josiahademeso@gmail.com" method="POST">
-                        <input type="hidden" name="_autoresponse" value=" your email has been sent succesfully">
-                        <input type="hidden" name="_subject" value="New submission!">
-                        <div>
-                            <input type="email" name="email" id="" placeholder="Your email" required>
-                        </div>
-                        <div>
-                            <textarea name="message" id="" cols="25" rows="10" placeholder="Your message"></textarea>
-                        </div>
-                        <button type="submit"><span>submit </span> <img src="/pics/paper plane 1.png" alt=""></button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div>
-            <p>My social media links: <span class="footer foot">
-                <a href="https://www.linkedin.com/in/josiah-ademeso-1827201b3/"><img src="/pics/linkedin-svgrepo-com 1.png" alt=""></a>
-                <a href="https://wa.me/+2348167534061"><img src="/pics/whatsapp-svgrepo-com 1 (1).png" alt=""></a>
-                <a href="https://twitter.com/josiahademeso"><img src="/pics/twitter-svgrepo-com 1.png" alt=""></a>
-                <a href="mailto:{josiahademeso@gmail.com}?subject={subject}&body={content}"><img src="/pics/gmail-svgrepo-com 1.png" alt=""></a>
-            
-            </span></p>   
-            
-        </div>
-        <div>
-            <p>Where to get my code :
-            <span class="footer foot"><img src="/pics/github-svgrepo-com 1.png" alt=""><span><a href="https://github.com/jojo114">@jojo114</a> on github</span></span></p>
-
-        </div>
-    </footer>
     
 </body>
 </html>
