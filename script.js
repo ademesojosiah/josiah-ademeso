@@ -23,6 +23,6 @@ function showPage(){
     setTimeout(() => {
          loader.style.display ='none';
          myDiv.style.display ='block';
-    }, 5000);
+    }, 3500);
 
 }
