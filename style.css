@@ -301,10 +301,12 @@ nav .logo a{
 .portfolio_row{
     margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .portfolio{
+    margin-bottom: 10px;
     padding: 4px;
     background-image: var(--gradient);
     flex-direction: column;
@@ -326,7 +328,7 @@ nav .logo a{
 .portfolio p{
     margin-top: 0px;
     text-align: center;
-    font-size: 1.3em ;
+    font-size: 1.3rem ;
 }
 
 
@@ -410,6 +412,26 @@ nav .logo a{
     background-image:url(/pics/todo.PNG);
     height: 50%;
 }
+
+.bg6{
+    filter: blur(1px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(/pics/Screenshot\ \(20\).png);
+    height: 50%;
+}
+
+.bg7{
+    filter: blur(1px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(/pics/Screenshot\ \(21\).png);
+    height: 50%;
+}
+
+
 
 
 .github{
