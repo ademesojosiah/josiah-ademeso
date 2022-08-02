@@ -29,7 +29,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     object-fit: contain;
-    height: 200px;
+    height: 100px;
     animation: rotatee 2s  infinite linear ;
 
 }
@@ -680,6 +680,12 @@ display: none;
     font-family: var(--fonts-fam);
     color: var(--info-color);
 }
+
+
+.bg1,.bg2,.bg3,.bg4,.bg5,.bg6,.bg7{
+    Filter: blur(0px);
+}
+
 
 .portfolio_git{
     flex-direction: column;
