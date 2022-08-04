@@ -431,6 +431,15 @@ nav .logo a{
     height: 50%;
 }
 
+.bg8{
+    filter: blur(1px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(/pics/Screenshot\ \(22\).png);
+    height: 50%;
+}
+
 
 
 
