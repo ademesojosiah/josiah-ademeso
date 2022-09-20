@@ -273,6 +273,7 @@ nav .logo a{
 
 .skills_section .skills_set{
     width: 60%;
+    padding-right: 200px;
     font-family: var(--fonts-fam);
     color: var(--info-color);
     font-size: 1.3em;
@@ -855,7 +856,7 @@ display: none;
 }
 
 .josiah_details{
-    width: 60%;
+    width: 100%;
 }
 
 .skills_section .skills_set{
