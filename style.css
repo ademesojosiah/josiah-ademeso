@@ -860,6 +860,7 @@ display: none;
 }
 
 .skills_section .skills_set{
+    padding-right: 0px;
     width: 100%;
     font-family: var(--fonts-fam);
     color: var(--info-color);
