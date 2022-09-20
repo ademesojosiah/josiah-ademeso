@@ -210,6 +210,11 @@ nav .logo a{
     color: #8d8d8d;
     font-size: 1.35em;
 }
+
+
+.josiah_details{
+    width: 350px;
+}
 /* img div in the about me section  */
 .hero_img{
     position: relative;
@@ -272,6 +277,12 @@ nav .logo a{
     color: var(--info-color);
     font-size: 1.3em;
     
+}
+
+.skills_set_image{
+    height: 80px;
+    object-fit: contain;
+    margin: 10px;
 }
 
 
@@ -843,6 +854,10 @@ display: none;
 
 }
 
+.josiah_details{
+    width: 60%;
+}
+
 .skills_section .skills_set{
     width: 100%;
     font-family: var(--fonts-fam);
@@ -856,6 +871,12 @@ display: none;
     width: 80px;
     margin: 10px;
 
+}
+
+.skills_set_image{
+    height: 80px;
+    object-fit: contain;
+    margin: 10px;
 }
 
 .skills_section .skills_image{
